@@ -12,7 +12,6 @@
     "@azure/logger": "1.0.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --port 5000 --mode development",
     "build": "webpack --mode development"
   },
   "devDependencies": {
