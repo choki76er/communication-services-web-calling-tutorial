@@ -11,6 +11,10 @@
     "@azure/communication-calling": "1.0.0-beta.1",
     "@azure/logger": "1.0.0"
   },
+  "scripts": {
+    "start": "webpack-dev-server --mode production --host 0.0.0.0 --public webcallingsdk.azurewebsites.net:443",
+    "build": "webpack --mode production"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
